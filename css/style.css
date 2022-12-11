@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* xzoom start  */
+
+.xzoom-area {
+    padding-top: 50px;
+}
+
+.xzoom-area .xzoom-thumbs {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.xzoom-area .xzoom {
+    /* width: 400px; */
+    width: 100%;
+    height: 450px;
+    box-shadow: 1px 4px 8px #aaa;
+    /* margin-left: 80px; */
+}
+
+.xzoom-area .xzoom-gallery {
+    border: 1px solid #aaa;
+}
+
+.xzoom-area .xzoom-gallery:hover {
+    border: 1px solid #378bbf;
+    box-shadow: 1px 4px 8px #aaa;
+}
+
+.xzoom-area .xzoom-lens {
+    cursor: zoom-in;
+}
+
+
+/* xzoom end  */
